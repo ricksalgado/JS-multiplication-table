@@ -7,7 +7,32 @@
     <link rel="stylesheet"  href="css/style.css"/>
 </head>
 <body>
-    
+    <h1>Multiplication Table</h1>
+    <form action="" id="multiplication-tab">
+        <div class="form-control">
+            <label for="number">Multiplication Table of:</label>
+            <input type="number" name="number" id="number" placeholder="type a number">
+        </div>
+        <div class="form-control">
+            <label for="multiplicator">Multiply up to</label>
+            <input type="number" name="multiplicator"  id="number" value="10">
+        </div>
+        <input type="submit" value="Multiply">
+    </form>
+    <div id="multiplication-table">
+        <h2 id="multiplication-title">Multiplication Table of:<span id="chosen-nbr"></span></h2>
+        <div id="multiplication-operations">
+            <p id="initial-p">Inform a number you want to Multiply</p>
+            <div class="row">
+                <div class="operation">5 x 1</div>
+                <div class="result-mlt">5</div>
+            </div>
+            <div class="row">
+                <div class="operation">5 x 2</div>
+                <div class="result-mlt">10</div>
+            </div>
+        </div>
+    </div>
     <script src="js/script.js" defer></script>
 </body>
 </html>
