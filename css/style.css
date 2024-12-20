@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     padding: 25px;
+    height: 100vh;
+    background: rgb(76,118,198);
+    background: linear-gradient(353deg, rgba(76,118,198,0.65) 0%, rgba(29,25,113,0.65) 50%, rgba(221,126,23,0.65) 100%);
+    text-align: center;
+    font-family: "Mulish", serif;
+    color: azure;
+    font-weight: 300;
 }
+
+#logoimg{
+    width: 190px;
+    padding: 15px;
+}
+
+h1, h2{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+form{
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    background-color: aliceblue;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px auto;
+    margin-bottom: 35px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-control input{
+    height: 35px;
+    max-width: 300px;
+    flex: 1;
+    border: 2px solid #4c76c6;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+
+form input[type="submit"]{
+    height: 35px;
+    min-width: 85%;
+    border-radius: 5px;
+    background-color: #dd7e17;
+    border: #965004 solid 2px;
+    color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: large;
+}
+
