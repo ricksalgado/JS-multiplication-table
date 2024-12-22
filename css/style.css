@@ -62,5 +62,7 @@ form input[type="submit"]{
     font-weight: 700;
     text-transform: uppercase;
     font-size: large;
+    cursor:alias;
+    margin-top: -35px;
 }
 
