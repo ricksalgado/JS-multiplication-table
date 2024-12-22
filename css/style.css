@@ -23,6 +23,7 @@ h1, h2{
 }
 
 form{
+    min-width: 250px;
     max-width: 600px;
     display: flex;
     flex-direction: row;
@@ -70,6 +71,7 @@ form input[type="submit"]{
 #multiplication-operations{
     display: flex;
     flex-direction: column;
+    min-width: 250px;
     max-width: 500px;
     align-items: center;
     justify-content: center;
@@ -99,4 +101,9 @@ form input[type="submit"]{
 
 #multiplication-operations p{
     padding-bottom: 15px;
+}
+
+.result-mlt{
+    font-weight: bold;
+    color: #dd7e17;
 }
