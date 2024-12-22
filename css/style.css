@@ -6,10 +6,13 @@ body{
     height: 100vh;
     background: rgb(76,118,198);
     background: linear-gradient(353deg, rgba(76,118,198,0.65) 0%, rgba(29,25,113,0.65) 50%, rgba(221,126,23,0.65) 100%);
+    background-repeat:no-repeat ;
+    background-size:100%;
     text-align: center;
     font-family: "Mulish", serif;
     color: azure;
     font-weight: 300;
+    overflow-y: hidden;
 }
 
 #logoimg{
@@ -70,20 +73,23 @@ form input[type="submit"]{
 
 #multiplication-operations{
     display: flex;
+    height: 420px;
     flex-direction: column;
     min-width: 250px;
     max-width: 500px;
     align-items: center;
-    justify-content: center;
+    justify-content: start;`
     margin: 1rem auto;
     padding: 25px;
     background-color:rgb(211, 231, 242);
     color: #1d1971;
     border-radius: 1rem;
+    overflow-y:scroll;
 }
 
 #multiplication-operations .row{
     display: flex;
+    /* align-items: start; */
     justify-content: center;
     border: 1px solid #999999;
     border-bottom: none;
