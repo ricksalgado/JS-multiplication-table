@@ -73,7 +73,8 @@ form input[type="submit"]{
 
 #multiplication-operations{
     display: flex;
-    height: 420px;
+    min-height:50px;
+    max-height: 420px;
     flex-direction: column;
     min-width: 250px;
     max-width: 500px;
@@ -89,12 +90,12 @@ form input[type="submit"]{
 
 #multiplication-operations .row{
     display: flex;
-    /* align-items: start; */
     justify-content: center;
     border: 1px solid #999999;
     border-bottom: none;
     padding: 0.5rem;
-    width: 150px;
+    min-width: 150px;
+    max-width: 300px;
 }
 
 #multiplication-operations .row:last-child{
